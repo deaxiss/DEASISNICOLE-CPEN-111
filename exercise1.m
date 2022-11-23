@@ -21,7 +21,5 @@ colorchange = rgb2hsv(fruits1);    % Change the colore image to HSV
 subplot(233);
 imshow(colorchange);                % Display converted version (HSV)
 title('RGB to HSV');
-imwrite(colorchange,'colorchange.png');     %saves image with name as colorchange
+imwrite(colorchange,'fruits3.png');     %saves image with name as colorchange
 
-
-AAAA
